@@ -39,7 +39,7 @@ Using **exploratory** and **explanatory** data analysis, I uncovered **Prosper�
 | Visualization | Insight |
 |--------------|--------|
 | <details><summary>Rating vs APR</summary><img src="visuals/rating_vs_apr.png" alt="Rating vs APR" width="100%"></details> | **Risk-based pricing works** — 4× APR gap from AA to HR |
-| <details><summary>Payment vs Amount by Term</summary><img src="visuals/loan_payment_vs_term.png" alt="Payment vs Term" width="100%"></details> | **3 formulaic bands** — 36-month is the standard |
+| <details><summary>Payment vs Amount by Term</summary><img src="visuals/loan_payment_vs_amount_by_term.png" alt="Payment vs Term" width="100%"></details> | **3 formulaic bands** — 36-month is the standard |
 | <details><summary>Employment × Term Facet</summary><img src="visuals/employment_term_facet.png" alt="Employment x Term" width="100%"></details> | **Only stable jobs get big, long loans** |
 
 ---
