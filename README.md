@@ -43,28 +43,29 @@ Using **exploratory** and **explanatory** data analysis, I uncovered **Prosper�
 | <details><summary>Employment × Term Facet</summary><img src="visuals/employment_term_facet.png" alt="Employment x Term" width="100%"></details> | **Only stable jobs get big, long loans** |
 
 ---
+## Repository Structure
 
+```plaintext
 prosper-loan-risk-analysis/
 │
-├── data.zip                                    ← Raw dataset (extract to use)
-├── prosper_loan_data_clean.csv                 ← Cleaned data (move to root after unzip)
+├── data.zip                                    Raw dataset (unzip to run)
+├── prosper_loan_data_clean.csv                 Cleaned data → move to root
 │
-├── Part_I_exploration_template_loan.ipynb      ← Full exploration (univariate, bivariate, multivariate)
-├── Part_II_explanatory_template_work_loan.ipynb← Executive summary + storytelling
+├── Part_I_exploration_template_loan.ipynb      Full EDA (univariate → multivariate)
+├── Part_II_explanatory_template_work_loan.ipynb Executive summary & storytelling
 │
-├── reports/                                    ← HTML/PDF exports
+├── reports/                                    HTML/PDF reports
 │   ├── Part_I_exploration_report.html
 │   └── Part_II_explanatory_report.html
 │
-├── visuals/                                    ← Key plots
+├── visuals/                                    Key visuals
 │   ├── rating_vs_apr.png
 │   ├── loan_payment_vs_amount_by_term.png
 │   └── employment_term_facet.png
 │
-├── .gitignore
-├── README.md                                   ← This file
-└── LICENSE                                     ← MIT License
-
+├── .gitignore                                  Keeps repo clean
+├── README.md                                   This file
+└── LICENSE                                     MIT License
 
 ## Technologies Used
 
