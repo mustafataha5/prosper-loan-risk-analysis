@@ -44,7 +44,6 @@ Using **exploratory** and **explanatory** data analysis, I uncovered **Prosper�
 
 ---
 
-## Repository Structure
 prosper-loan-risk-analysis/
 │
 ├── data.zip                                    ← Raw dataset (extract to use)
@@ -66,7 +65,6 @@ prosper-loan-risk-analysis/
 ├── README.md                                   ← This file
 └── LICENSE                                     ← MIT License
 
----
 
 ## Technologies Used
 
