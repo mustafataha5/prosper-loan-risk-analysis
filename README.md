@@ -47,26 +47,26 @@ Using **exploratory** and **explanatory** data analysis, I uncovered **Prosper�
 ## Repository Structure
 prosper-loan-risk-analysis/
 │
-├── data.zip                     ← contains prosper_loan_data_clean.csv
-├── prosper_loan_data_clean.csv   ← ✅ Move this out of data.zip to root
+├── data.zip                                    ← Raw dataset (extract to use)
+├── prosper_loan_data_clean.csv                 ← Cleaned data (move to root after unzip)
 │
-├── Part_I_exploration_template_loan.ipynb      Exploration (univariate, bivariate,multivariate)
-├── Part_II_explanatory_template_work_loan.ipynb    Executive summary + storytelling
-├── prosper_loan_data_clean.csv            Cleaned dataset (106K rows) after run Part I
+├── Part_I_exploration_template_loan.ipynb      ← Full exploration (univariate, bivariate, multivariate)
+├── Part_II_explanatory_template_work_loan.ipynb← Executive summary + storytelling
 │
-├── reports/                               HTML/PDF exports
+├── reports/                                    ← HTML/PDF exports
 │   ├── Part_I_exploration_report.html
 │   └── Part_II_explanatory_report.html
 │
-├── visuals/                               Key plots
+├── visuals/                                    ← Key plots
 │   ├── rating_vs_apr.png
 │   ├── loan_payment_vs_amount_by_term.png
 │   └── employment_term_facet.png
 │
-├── README.md                              This file
-└── LICENSE                                MIT License
+├── .gitignore
+├── README.md                                   ← This file
+└── LICENSE                                     ← MIT License
 
-text---
+---
 
 ## Technologies Used
 
