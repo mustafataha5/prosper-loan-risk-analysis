@@ -66,6 +66,7 @@ prosper-loan-risk-analysis/
 ├── .gitignore                                  Keeps repo clean
 ├── README.md                                   This file
 └── LICENSE                                     MIT License
+```
 
 ## Technologies Used
 
